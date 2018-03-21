@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -103,14 +103,14 @@ var Index = function Index() {
         }
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "a",
+        "button",
         {
           __source: {
             fileName: _jsxFileName,
             lineNumber: 7
           }
         },
-        "About Page"
+        "Go to About Page"
       )
     ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -130,7 +130,7 @@ var Index = function Index() {
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__("./pages/index.js");
