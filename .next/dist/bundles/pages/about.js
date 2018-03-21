@@ -67,81 +67,49 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./pages/index.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_link__);
-var _jsxFileName = "C:\\Users\\joemu\\Desktop\\Coding\\ERS-NextJS\\pages\\index.js";
+var _jsxFileName = "C:\\Users\\joemu\\Desktop\\Coding\\ERS-NextJS\\pages\\about.js";
 
-// This is the Link API
-
-
-var Index = function Index() {
+/* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
     "div",
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 5
+        lineNumber: 2
       }
     },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_1_next_link___default.a,
-      { href: "/about", __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
-      },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-        "a",
-        {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 7
-          }
-        },
-        "About Page"
-      )
-    ),
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       "p",
       {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 9
+          lineNumber: 3
         }
       },
-      "Hello Next.js"
+      "This is the about page"
     )
   );
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Index);
+});
 
 /***/ }),
 
-/***/ 3:
+/***/ 2:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/index.js");
+module.exports = __webpack_require__("./pages/about.js");
 
-
-/***/ }),
-
-/***/ "next/link":
-/***/ (function(module, exports) {
-
-module.exports = require("next/link");
 
 /***/ }),
 
@@ -153,4 +121,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=index.js.map
+//# sourceMappingURL=about.js.map
