@@ -10547,7 +10547,7 @@ var PostLink = function PostLink(props) {
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
       __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
-      { href: '/post?title=' + props.title, __source: {
+      { as: '/p/' + props.id, href: '/post?title=' + props.title, __source: {
           fileName: _jsxFileName,
           lineNumber: 6
         }
@@ -10593,17 +10593,17 @@ var _default = function _default() {
           lineNumber: 15
         }
       },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { title: 'Hello Next.js', __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'hello-nextjs', title: 'Hello Next.js', __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
       }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { title: 'Learn Next.js is awesome', __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'learn-nextjs', title: 'Learn Next.js is awesome', __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
       }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { title: 'Deploy apps with Zeit', __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'deploy-nextjs', title: 'Deploy apps with Zeit', __source: {
           fileName: _jsxFileName,
           lineNumber: 18
         }
