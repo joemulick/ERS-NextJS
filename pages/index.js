@@ -1,6 +1,7 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
 
+
 const PostLink = (props) => (
   <li>
     <Link as={`/p/${props.id}`} href={`/post?title=${props.title}`}>
