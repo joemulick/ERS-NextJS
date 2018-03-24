@@ -67,7 +67,7 @@ module.exports =
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -177,7 +177,7 @@ var Layout = function Layout(props) {
 
 /***/ }),
 
-/***/ "./pages/post.js":
+/***/ "./pages/about.js":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -185,65 +185,38 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MyLayout_js__ = __webpack_require__("./components/MyLayout.js");
-var _jsxFileName = 'C:\\Users\\joemu\\Desktop\\Coding\\ERS-NextJS\\pages\\post.js';
+var _jsxFileName = 'C:\\Users\\joemu\\Desktop\\Coding\\ERS-NextJS\\pages\\about.js';
 
 
 
-var Content = function Content(props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    'div',
-    {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 4
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h1',
+/* harmony default export */ __webpack_exports__["default"] = (function () {
+   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_1__components_MyLayout_js__["a" /* default */],
       {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        }
+         __source: {
+            fileName: _jsxFileName,
+            lineNumber: 4
+         }
       },
-      props.url.query.title
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'p',
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        }
-      },
-      'This is the blog post content.'
-    )
-  );
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (function (props) {
-  return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_1__components_MyLayout_js__["a" /* default */],
-    {
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 11
-      }
-    },
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(Content, { url: props.url, __source: {
-        fileName: _jsxFileName,
-        lineNumber: 12
-      }
-    })
-  );
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+         'p',
+         {
+            __source: {
+               fileName: _jsxFileName,
+               lineNumber: 5
+            }
+         },
+         'This is the about page'
+      )
+   );
 });
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__("./pages/post.js");
+module.exports = __webpack_require__("./pages/about.js");
 
 
 /***/ }),
@@ -263,4 +236,4 @@ module.exports = require("react");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=post.js.map
+//# sourceMappingURL=about.js.map

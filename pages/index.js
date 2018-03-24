@@ -1,6 +1,6 @@
 import Layout from '../components/MyLayout.js'
 import Link from 'next/link'
-import 'semantic-ui-css/semantic.min.css';
+
 
 const PostLink = (props) => (
   <li>
