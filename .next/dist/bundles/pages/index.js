@@ -184,10 +184,16 @@ var Layout = function Layout(props) {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__("react");
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__components_MyLayout_js__ = __webpack_require__("./components/MyLayout.js");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link__ = __webpack_require__("next/link");
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head__ = __webpack_require__("next/head");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_next_head___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_next_head__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__components_MyLayout_js__ = __webpack_require__("./components/MyLayout.js");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link__ = __webpack_require__("next/link");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_next_link___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_next_link__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_semantic_ui_react__ = __webpack_require__("semantic-ui-react");
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_semantic_ui_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_semantic_ui_react__);
 var _jsxFileName = 'C:\\Users\\joemu\\Desktop\\Coding\\ERS-NextJS\\pages\\index.js';
+
+
 
 
 
@@ -198,14 +204,14 @@ var PostLink = function PostLink(props) {
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 6
+        lineNumber: 7
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      __WEBPACK_IMPORTED_MODULE_2_next_link___default.a,
+      __WEBPACK_IMPORTED_MODULE_3_next_link___default.a,
       { as: '/p/' + props.id, href: '/post?title=' + props.title, __source: {
           fileName: _jsxFileName,
-          lineNumber: 7
+          lineNumber: 8
         }
       },
       __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
@@ -213,7 +219,7 @@ var PostLink = function PostLink(props) {
         {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 8
+            lineNumber: 9
           }
         },
         props.title
@@ -224,46 +230,79 @@ var PostLink = function PostLink(props) {
 
 /* harmony default export */ __webpack_exports__["default"] = (function () {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-    __WEBPACK_IMPORTED_MODULE_1__components_MyLayout_js__["a" /* default */],
+    'div',
     {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 15
       }
     },
     __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'h1',
-      {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        }
-      },
-      'My Blog'
-    ),
-    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-      'ul',
+      __WEBPACK_IMPORTED_MODULE_1_next_head___default.a,
       {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 16
         }
       },
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'hello-nextjs', title: 'Hello Next.js', __source: {
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement('link', { rel: 'stylesheet', href: '//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css', __source: {
           fileName: _jsxFileName,
           lineNumber: 17
         }
-      }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'learn-nextjs', title: 'Learn Next.js is awesome', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        }
-      }),
-      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'deploy-nextjs', title: 'Deploy apps with Zeit', __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        }
       })
+    ),
+    __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+      __WEBPACK_IMPORTED_MODULE_2__components_MyLayout_js__["a" /* default */],
+      {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 20
+        }
+      },
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'h1',
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 21
+          }
+        },
+        'My Blog'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        __WEBPACK_IMPORTED_MODULE_4_semantic_ui_react__["Button"],
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 22
+          }
+        },
+        'Click Here'
+      ),
+      __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
+        'ul',
+        {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 23
+          }
+        },
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'hello-nextjs', title: 'Hello Next.js', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 24
+          }
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'learn-nextjs', title: 'Learn Next.js is awesome', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 25
+          }
+        }),
+        __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(PostLink, { id: 'deploy-nextjs', title: 'Deploy apps with Zeit', __source: {
+            fileName: _jsxFileName,
+            lineNumber: 26
+          }
+        })
+      )
     )
   );
 });
@@ -278,6 +317,13 @@ module.exports = __webpack_require__("./pages/index.js");
 
 /***/ }),
 
+/***/ "next/head":
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
+
+/***/ }),
+
 /***/ "next/link":
 /***/ (function(module, exports) {
 
@@ -289,6 +335,13 @@ module.exports = require("next/link");
 /***/ (function(module, exports) {
 
 module.exports = require("react");
+
+/***/ }),
+
+/***/ "semantic-ui-react":
+/***/ (function(module, exports) {
+
+module.exports = require("semantic-ui-react");
 
 /***/ })
 
