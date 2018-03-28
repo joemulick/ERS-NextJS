@@ -1,6 +1,7 @@
+import Link from 'next/link'
 import Head from 'next/head'
 import Layout from '../components/MyLayout.js'
-import Link from 'next/link'
+import IndexHeader from '../components/IndexHeader.js'
 import { Button } from 'semantic-ui-react'
 
 const PostLink = (props) => (
@@ -18,13 +19,29 @@ export default () => (
     </Head>
 
     <Layout>
-      <h1>My Blog</h1>
-      <Button>Click Here</Button>
-      <ul>
-        <PostLink id="hello-nextjs" title="Hello Next.js"/>
-        <PostLink id="learn-nextjs" title="Learn Next.js is awesome"/>
-        <PostLink id="deploy-nextjs" title="Deploy apps with Zeit"/>
-      </ul>
+      <div className="ersMainContainer">
+        <img src="https://res.cloudinary.com/ddsihrmda/image/upload/v1522206540/ers-logo_maifpr.png" />
+
+        <IndexHeader />
+      </div>
     </Layout>
+
+        	<style jsx>{`
+            .ersMainContainer {
+              position: absolute;
+              top: 12%;
+              left: 50%;
+              width: 512px;
+              height: 512px;
+              margin-left: -256px; /* Half the width of the container */
+            }
+            .ersMainImage {
+              width:100%;
+              height:auto;
+            }
+            
+                              
+        `}</style>
+
   </div>
 )
